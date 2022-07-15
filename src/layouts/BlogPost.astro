@@ -34,9 +34,9 @@ const {
 						width={720}
 						height={420}
 						loading="lazy"
-						// note: both work on dev
-						// src={import("../assets/blog/introducing-astro.jpg")} this works on build
-						src={import(heroImage.src)} // this doesn't 
+						// note: both work in dev
+						src={import("../assets/blog/introducing-astro.jpg")} // this works on build
+						src={import(heroImage.src)} // this doesn't
 						alt={heroImage.alt}
 						format="webp"
 					/>
